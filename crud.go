@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"example.com/Documents/golang_DB_practice/utils"
+	"github.com/ChickenClisp/golang_RestAPI_DB/utils"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 

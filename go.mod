@@ -1,4 +1,4 @@
-module example.com/Documents/golang_DB_practice
+module github.com/ChickenClisp/golang_RestAPI_DB
 
 go 1.20
 

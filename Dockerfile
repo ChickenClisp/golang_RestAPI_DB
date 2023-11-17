@@ -11,4 +11,3 @@ COPY ./utils.go ${ROOT}
 COPY go.mod ${ROOT}
 
 RUN go mod tidy
-RUN go run .

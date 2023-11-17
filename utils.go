@@ -26,7 +26,7 @@ func RespondWithJSON(w http.ResponseWriter, code int, payload interface{}) {
 
 // DBとのコネクションを張る
 func GetConnection() *gorm.DB {
-    db, err := gorm.Open("mysql", "ChickenClisp:Urgrn24yuyk#@/score_db?charset=utf8&parseTime=True&loc=Local")
+    db, err := gorm.Open("mysql", "username:password#@/score_db?charset=utf8&parseTime=True&loc=Local")
     if err != nil {
         log.Fatalf("DB connection failed %v", err)
     }

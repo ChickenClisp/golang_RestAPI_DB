@@ -7,7 +7,7 @@ RUN apk update && apk add git
 
 COPY ./main.go ${ROOT}
 COPY ./crud.go ${ROOT}
-COPY ./utils ${ROOT}
+COPY ./utils.go ${ROOT}
 COPY go.mod ${ROOT}
 
 RUN go mod tidy
